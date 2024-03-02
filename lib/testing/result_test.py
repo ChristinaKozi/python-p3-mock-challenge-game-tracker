@@ -30,11 +30,11 @@ class TestResults:
         assert result_1.score == 2000
         assert isinstance(result_1.score, int)
 
-        # uncomment the next two lines if using Exceptions
+        # # uncomment the next two lines if using Exceptions
         # with pytest.raises(Exception):
         #     Result(player, game, "500")
 
-        # uncomment the next two lines if using Exceptions
+        # # uncomment the next two lines if using Exceptions
         # with pytest.raises(Exception):
         #     Result(player, game, 400.99)
 
@@ -50,7 +50,7 @@ class TestResults:
         # with pytest.raises(Exception):
         #     result.score = 5001
 
-        # uncomment the next two lines if using Exceptions
+        # # uncomment the next two lines if using Exceptions
         # with pytest.raises(Exception):
         #     result.score = 0
 
